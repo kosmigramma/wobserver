@@ -83,7 +83,7 @@ defmodule Wobserver.Mixfile do
       {:dialyxir, "~> 0.5", only: [:dev], runtime: false},
       {:ex_doc, "~> 0.19.1", only: :dev},
       {:excoveralls, "~> 0.6", only: :test},
-      {:httpoison, "~> 1.5.1"},
+      {:httpoison, "~> 1.6.2"},
       {:inch_ex, "~> 0.5", only: [:dev, :test]},
       {:meck, "~> 0.8.4", only: :test},
       {:websocket_client, "~> 1.2"}
